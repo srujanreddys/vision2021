@@ -39,4 +39,11 @@ public class AllInOneProgram {
 		}
 			return false;
 	}
+	//Deduct 32, then multiply by 5, then divide by 9
+	public static boolean FartoCelcius(double tempInFar) {
+		celcius = ((tempInFar - 32) * 5)/9
+		return celcius
+	}
+	
+	
 }
