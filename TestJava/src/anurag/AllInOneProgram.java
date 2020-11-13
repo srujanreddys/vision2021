@@ -16,6 +16,11 @@ public class AllInOneProgram {
 		IntegersDifferences(a, b);
 		TrueOrFalse(a, b, c, d);
 		System.out.println(TrueOrFalse(4, b, c, d));
+		int i = 1;
+		while(i <=100) {
+			System.out.println(i);
+			i = i +2 ;
+		}
 	}
 	public static int sum (int a,int b) {
 		if (a>b) {
@@ -40,9 +45,9 @@ public class AllInOneProgram {
 			return false;
 	}
 	//Deduct 32, then multiply by 5, then divide by 9
-	public static boolean FartoCelcius(double tempInFar) {
-		celcius = ((tempInFar - 32) * 5)/9
-		return celcius
+	public static double FartoCelcius(double tempInFar) {
+		double celcius = ((tempInFar - 32) * 5)/9;
+		return celcius;
 	}
 	
 	
