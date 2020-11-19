@@ -16,11 +16,15 @@ public class AllInOneProgram {
 		IntegersDifferences(a, b);
 		TrueOrFalse(a, b, c, d);
 		System.out.println(TrueOrFalse(4, b, c, d));
+
+		
 		int i = 1;
 		while(i <=100) {
 			System.out.println(i);
-			i = i +2 ;
+			i = i +1 ;
 		}
+			
+
 	}
 	public static int sum (int a,int b) {
 		if (a>b) {
@@ -49,6 +53,8 @@ public class AllInOneProgram {
 		double celcius = ((tempInFar - 32) * 5)/9;
 		return celcius;
 	}
+	
+	
 	
 	
 }
