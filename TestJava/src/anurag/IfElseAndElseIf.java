@@ -16,7 +16,7 @@ public class IfElseAndElseIf {
 		CalculateProfitOrLoss(20 ,17);
 		CalculateProfitOrLoss(10 ,10);
 		MaximumBetweenThreeNumbers(a, b, c);
-		NumberIsDivisibleBy5And11OrNot(55);
+		NumberIsDivisibleBy5And11OrNot(10);
 	}
 	public static int CheckingWhetherANumberIsNegativePositiveOrZero (int a) {
 		if (a<=-1) {

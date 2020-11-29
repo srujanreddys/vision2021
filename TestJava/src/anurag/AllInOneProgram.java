@@ -10,21 +10,23 @@ public class AllInOneProgram {
 		String e= "Anurag ";
 		String f= "Reddy";
 		sum(a, b);
-		System.out.println(sum(a, b));
-		str_combine(e,f);
-		str_combine("i am ","fine");
-		IntegersDifferences(a, b);
-		TrueOrFalse(a, b, c, d);
-		System.out.println(TrueOrFalse(4, b, c, d));
-
-		
+			System.out.println(sum(a, b));
+	str_combine(e,f);
+	str_combine("i am ","fine");
+	IntegersDifferences(a, b);
+	TrueOrFalse(a, b, c, d);
+			System.out.println(TrueOrFalse(4, b, c, d));
 		int i = 1;
 		while(i <=100) {
 			System.out.println(i);
 			i = i +1 ;
+	checkingTheNumberValue(0);
+	ReturnTheLargestInteger(a, b);
+		int value=ReturnTheLargestInteger(a, b);
+			System.out.println(value);
+			System.out.println(ReturnTheLargestInteger(8, 2));
+	TwoIntegersDifferences(a, b);
 		}
-			
-
 	}
 	public static int sum (int a,int b) {
 		if (a>b) {
@@ -53,8 +55,32 @@ public class AllInOneProgram {
 		double celcius = ((tempInFar - 32) * 5)/9;
 		return celcius;
 	}
+	public static int checkingTheNumberValue (int a) {
+		if (a<=-1) {
+			System.out.println("Negative");		
+	}
+		else {
+			if (a>=1) {
+				System.out.println("Positive");
+			}
+	}
+			return 0;
+			}
+	public static int ReturnTheLargestInteger (int a,int b) {
+		if (a>b) {
+		return a;
+		}
+		return b;
+		}
+	public static void TwoIntegersDifferences(int a, int b) {
+		System.out.println("Sum of two integers "+(a+b));
+		System.out.println("Difference of two integers "+(a-b));
+		System.out.println("Product of two integers "+(a*b));
+		System.out.println("Average of two integers "+(a+b)/2);
+		System.out.println("Distance of two integers "+(a-b));
+		}
+	}
 	
 	
 	
-	
-}
+
