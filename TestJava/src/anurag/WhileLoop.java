@@ -4,11 +4,11 @@ public class WhileLoop {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a=1;
-		int b=2;
-		//printOneToHunderOddNumbers();
-	//	PrintAllNaturalNumbers(100);
-	//	PrintAllNaturalNumbers(50);
+	//	int a=1;
+	//	int b=2;
+		printOneToHunderOddNumbers();
+		PrintAllNaturalNumbers(100);
+		PrintAllNaturalNumbers(50);
 		SumOfAllNumbersFromOneToHundred();
 		SumOfAllEvenNumbers();
 	}
@@ -46,7 +46,8 @@ public class WhileLoop {
 			if (b%2==0) {
 				sum=sum+b;
 				b=b+1;
-			}System.out.println(sum);
+			}
+			System.out.println(sum);
 		}
 		return sum;
 	}

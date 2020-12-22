@@ -9,17 +9,17 @@ public class ArraysTest {
 		String s1 = "srujan";
 		String s2 = "reddy";
 		String s3 ="12345";
-		int i = 123456;
-	//	printTheInputArrayElements(array);
-	//	printTheInputInteger(8);
-	//	printTheInputArrayElements(str);
-	//	printSecondElementOfString(s1);
-	//	printAllElementsOfString(s2);
-	//	printAllArrayInReverseOrder(array);
-	//	printAllArrayInReverseOrder(array1);
+	//	int i = 123456;
+		printTheInputArrayElements(array);
+		printTheInputInteger(8);
+		printTheInputArrayElements(str);
+		printSecondElementOfString(s1);
+		printAllElementsOfString(s2);
+		printAllArrayInReverseOrder(array);
+		printAllArrayInReverseOrder(array1);
 		printsTheSumOfTheEvenAndOddIntegers(array1);
 		printAllEvenIndexElementsOfAString(s1);
-	//	printAllEvenIndexElementsOfAString(s3);
+		printAllEvenIndexElementsOfAString(s3);
 		printsTheSumOfArray(array1);
 		}
 	public static void printTheInputArrayElements(int[] x) {

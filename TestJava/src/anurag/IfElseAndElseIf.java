@@ -19,6 +19,7 @@ public class IfElseAndElseIf {
 		NumberIsDivisibleBy5And11OrNot(10);
 	}
 	public static int CheckingWhetherANumberIsNegativePositiveOrZero (int a) {
+		a =30;
 		if (a<=-1) {
 			System.out.println("Negative");		
 	}
