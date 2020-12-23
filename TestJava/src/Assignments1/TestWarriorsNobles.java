@@ -30,7 +30,7 @@ public class TestWarriorsNobles {
 		System.out.println(art);
 		System.out.println(linus);
 		System.out.println(billie);
-		
+	
 		cheetah.runaway();
 		
 		System.out.println(art);
