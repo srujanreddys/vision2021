@@ -29,6 +29,17 @@ public class Warrior {
 		this.warriorstrength = warriorstrength;
 	}
 	public void runaway() {
-		this.myOwner=null;
+		System.out.println("So long "+ this.getMyOwner().getNobleName() + ". I'm out'a here! -- "+ this.warriorName);
+		this.myOwner.setQuit(this);
+	}
+	
+	public String toString() {		
+		StringBuilder sb = new StringBuilder();
+		sb.append("\n\t");
+		sb.append(getWarriorName());
+		sb.append(": ");
+		sb.append(getWarriorstrength());
+		
+		return sb.toString();
 	}
 }
