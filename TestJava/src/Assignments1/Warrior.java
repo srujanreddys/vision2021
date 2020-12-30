@@ -26,13 +26,24 @@ public class Warrior {
 	}
 	public Warrior(String warriorName, int warriorstrength) {
 		this.warriorName = warriorName;
+		if (warriorstrength < 0) {
+			this.warriorstrength = 0;
+		}
 		this.warriorstrength = warriorstrength;
 	}
 	public void runaway() {
-		System.out.println("So long "+ this.getMyOwner().getNobleName() + ". I'm out'a here! -- "+ this.warriorName);
-		this.myOwner.setQuit(this);
+		if (isAlive()==true && this.myOwner!=null) {
+			System.out.println("So long "+ this.getMyOwner().getNobleName() + ". I'm out'a here! -- "+ this.warriorName);
+			this.myOwner.deleteWarrior(this);
+			this.setMyOwner(null);
+		}
 	}
-	
+	public boolean isAlive() {
+		if (warriorstrength==0) {
+			return false;
+		}
+		return true;
+	}
 	public String toString() {		
 		StringBuilder sb = new StringBuilder();
 		sb.append("\n\t");

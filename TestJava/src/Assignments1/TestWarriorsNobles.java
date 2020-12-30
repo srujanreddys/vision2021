@@ -32,6 +32,7 @@ public class TestWarriorsNobles {
 		System.out.println(billie);
 	
 		cheetah.runaway();
+		cheetah.runaway();
 		
 		System.out.println(art);
 		
@@ -47,5 +48,5 @@ public class TestWarriorsNobles {
 		System.out.println(art);
 		System.out.println(linus);
 		System.out.println(billie);
-		}
-		}
+	}
+}
