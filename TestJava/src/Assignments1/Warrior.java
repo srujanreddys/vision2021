@@ -31,6 +31,13 @@ public class Warrior {
 		}
 		this.warriorstrength = warriorstrength;
 	}
+	/**Runaway means Warrior is Quit from the Noble.
+	 * First checks given warrior isAlive and hired or not if successful
+	 * after that the Warrior objects will be deleted from Noble
+	 * then it changes the warrior myOwner to 'null'
+	 * @param 	 None
+	 * @return   None
+	 */
 	public void runaway() {
 		if (isAlive()==true && this.myOwner!=null) {
 			System.out.println("So long "+ this.getMyOwner().getNobleName() + ". I'm out'a here! -- "+ this.warriorName);
@@ -38,6 +45,12 @@ public class Warrior {
 			this.setMyOwner(null);
 		}
 	}
+	/**
+	 * isAlive checks the Warrior is Alive or not
+	 * if Warrior Strength is 0 it returns false as Warrior is dead 
+	 * if Warrior Strength is more then 0 it returns true as Warrior is Alive 
+	 * @return false if dead else true
+	 */
 	public boolean isAlive() {
 		if (warriorstrength==0) {
 			return false;
