@@ -11,7 +11,7 @@ public class Noble {
 	public String getNobleName() {
 		return nobleName;
 	}
-	public void setNobleName(String nobleName) {
+	public void setNobleName(String nobleName){
 		this.nobleName = nobleName;
 	}
 	/**
