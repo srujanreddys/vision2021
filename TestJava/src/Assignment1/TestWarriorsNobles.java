@@ -1,4 +1,4 @@
-package Assignments1;
+package Assignment1;
 
 public class TestWarriorsNobles {
 	
