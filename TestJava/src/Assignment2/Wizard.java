@@ -1,15 +1,15 @@
 package Assignment2;
 
-public class Wizard extends Battle {
+public class Wizard extends Protector {
 
-	public Wizard(String name, double strength) {
-		super(name, strength);
+	public Wizard(String Name, double Strength) {
+		super(Name, Strength);
 		// TODO Auto-generated constructor stub
 	}
 
-	public void runaway() {
-		// TODO Auto-generated method stub
-		
+	@Override
+	public void SoundOfProtector() {
+		System.out.println("POOF");
 	}
-
+	
 }

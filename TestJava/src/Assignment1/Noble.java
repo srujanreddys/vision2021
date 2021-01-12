@@ -27,7 +27,7 @@ public class Noble {
 		this.alive=true;
 	}	
 	/**
-	 * First checks if the given new recruit is not deaad and is not 
+	 * First checks if the given new recruit is not dead and is not 
 	 *  hired already ,if successful then the warrior is hired  
 	 * @param  Object Warrior  ,New Recruitment to be done
 	 * @return      None

@@ -31,6 +31,9 @@ public class TestInheritance {
 		System.out.println(janet);
 		System.out.println(randy);
 		System.out.println(barclay);
+		Swordsman hadry_1 = hardy;
+		System.out.println(hadry_1);
+		System.out.println(hardy.equals(hadry_1));
 		}
 }
 

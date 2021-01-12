@@ -1,14 +1,15 @@
 package Assignment2;
 
-public class Archer extends Battle {
+public class Archer extends Protector {
 
-	public Archer(String name, double strength) {
-		super(name, strength);
+
+	public Archer(String Name, double Strength) {
+		super(Name, Strength);
 		// TODO Auto-generated constructor stub
 	}
 
-	public void runaway() {
-		// TODO Auto-generated method stub
-		
+	@Override
+	public void SoundOfProtector() {
+		System.out.println("TWANG! "+this.getName()+" says: Take that in the name of my lord, "+this.getMyOwner().getName());		
 	}
 }
