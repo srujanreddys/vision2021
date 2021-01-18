@@ -11,7 +11,7 @@ public class Engine {
 	}
 	public void setEnginetype(String enginetype) {
 		this.enginetype = enginetype;
-	}
+	} 
 	public double getHorsepower() {
 		return horsepower;
 	}

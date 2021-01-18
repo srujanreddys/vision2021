@@ -14,9 +14,8 @@ public class Wheel {
 		return radius;
 	}
 	public void setRadius(double radius) {
-		this.radius = radius;
+		this.radius = radius; 
 	}
-
 	public Wheel(String brand, double radius) {
 		this.brand = brand;
 		this.radius = radius;
