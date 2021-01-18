@@ -43,26 +43,31 @@ public class Car {
 	 * if there is a engine 
 	 */
 	public void removeEngine() {
-		if (getCarEngine().getEnginetype()!=null && getCarEngine().getHorsepower()!=0) {
-			getCarEngine().setEnginetype(null);
-			getCarEngine().setHorsepower(0);
+		if (getCarEngine()!= null) {
+			setCarEngine(null);
+		//	getCarEngine().setEnginetype(null);
+		//	getCarEngine().setHorsepower(0);
 			System.out.println("Engine as been removed");
 		}else {
 			System.out.println("Engine can't be removed");
 		}
 	}
-	/*
-	public void changeEngine(String Enginetype, double horsepower) {
-		if (carEngine != null)
-			this.carEngine = new Engine(Enginetype, horsepower);
-	}*/
+	
+	public void changeEngine(Car carEngine) {
+		if (carEngine != null) {
+			setCarEngine(carEngine.getCarEngine());
+		System.out.println("Car engine as changed");
+		}else {
+			System.out.println("Car engine can't be changed");
+		}
+	}
 	/**
 	 * it will add new engine to the car if there is no engine 
 	 * @param Enginetype	type of the Engine
 	 * @param horsepower	hoursepower of the Engine
 	 */
 	public void addEngine(String Enginetype, double horsepower) {
-		if (getCarEngine().getEnginetype() == null && getCarEngine().getHorsepower()==0) {
+		if (getCarEngine()==null) {
 			this.carEngine = new Engine(Enginetype, horsepower);
 			System.out.println("New engine as been added");
 		}else {

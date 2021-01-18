@@ -17,5 +17,9 @@ public class TestCar {
 		Ford.addEngine("V5", 400);
 		Ford.addEngine("V6", 450);
 		System.out.println(Ford);
+		Car BMW = new Car("twin turbo", 600, 0.5, 2, "CAIT");
+		System.out.println(BMW);
+		BMW.changeEngine(Ford);
+		System.out.println(BMW);
 	}
 }
