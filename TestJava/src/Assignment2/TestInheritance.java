@@ -13,6 +13,7 @@ public class TestInheritance {
 		Archer samantha = new Archer("Samantha", 50);
 		Archer pethora = new Archer("Pethora", 50);
 		Wizard thora = new Wizard("Thorapleth", 70);
+		System.out.println(samantha.equals(pethora));
 		sam.hire(samantha);
 		janet.hire(hardy);
 		janet.hire(stout);
@@ -33,7 +34,7 @@ public class TestInheritance {
 		System.out.println(barclay);
 		Swordsman hadry_1 = hardy;
 		System.out.println(hadry_1);
-		System.out.println(hardy.equals(hadry_1));
+		System.out.println(samantha.hashCode());
 		}
 }
 

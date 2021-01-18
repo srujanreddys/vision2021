@@ -58,6 +58,7 @@ abstract class Protector {
 			System.out.println(this.getName()+"  could not runaway");
 		}
 	}
+	@Override
 	public String toString() {		
 		StringBuilder sb = new StringBuilder();
 		sb.append("\n\t");
@@ -66,4 +67,5 @@ abstract class Protector {
 		sb.append(getStrength());
 		return sb.toString();
 	}
+	
 }
