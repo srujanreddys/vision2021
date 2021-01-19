@@ -52,7 +52,6 @@ public class Car {
 			System.out.println("Engine can't be removed");
 		}
 	}
-	
 	public void changeEngine(Car carEngine) {
 		if (carEngine != null) {
 			setCarEngine(carEngine.getCarEngine());

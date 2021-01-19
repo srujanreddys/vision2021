@@ -21,7 +21,7 @@ public class Engine {
 	public Engine(String type, double horsepower) {
 		this.enginetype = type;
 		this.horsepower = horsepower;
-	}
+	} 
 	public String toString() {
 		StringBuilder sb= new StringBuilder();
 		sb.append("Engine details  \n  Type : "+this.getEnginetype()+"\n Hoursepower : "+this.getHorsepower());

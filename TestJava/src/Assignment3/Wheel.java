@@ -19,7 +19,7 @@ public class Wheel {
 	public Wheel(String brand, double radius) {
 		this.brand = brand;
 		this.radius = radius;
-	}
+	} 
 	/*
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
